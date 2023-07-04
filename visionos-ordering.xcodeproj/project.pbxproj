@@ -12,6 +12,11 @@
 		A9C205982A50B61B003A9F05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C205972A50B61B003A9F05 /* ContentView.swift */; };
 		A9C2059A2A50B61C003A9F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C205992A50B61C003A9F05 /* Assets.xcassets */; };
 		A9C2059D2A50B61C003A9F05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C2059C2A50B61C003A9F05 /* Preview Assets.xcassets */; };
+		A9C205A52A50B67A003A9F05 /* pie_lemon_meringue.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A9C205A42A50B67A003A9F05 /* pie_lemon_meringue.usdz */; };
+		A9C205A92A50B795003A9F05 /* pizza.obj in Resources */ = {isa = PBXBuildFile; fileRef = A9C205A82A50B794003A9F05 /* pizza.obj */; };
+		A9C205AB2A50B83C003A9F05 /* popsicle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A9C205AA2A50B83C003A9F05 /* popsicle.usdz */; };
+		A9C205AD2A50BA14003A9F05 /* solo_cup.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A9C205AC2A50BA14003A9F05 /* solo_cup.usdz */; };
+		A9C205F02A50ED64003A9F05 /* table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A9C205EF2A50ED64003A9F05 /* table.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,12 @@
 		A9C205972A50B61B003A9F05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9C205992A50B61C003A9F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C2059C2A50B61C003A9F05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9C205A42A50B67A003A9F05 /* pie_lemon_meringue.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pie_lemon_meringue.usdz; sourceTree = "<group>"; };
+		A9C205A72A50B736003A9F05 /* pizza.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = pizza.blend; sourceTree = "<group>"; };
+		A9C205A82A50B794003A9F05 /* pizza.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pizza.obj; sourceTree = "<group>"; };
+		A9C205AA2A50B83C003A9F05 /* popsicle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = popsicle.usdz; sourceTree = "<group>"; };
+		A9C205AC2A50BA14003A9F05 /* solo_cup.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = solo_cup.usdz; sourceTree = "<group>"; };
+		A9C205EF2A50ED64003A9F05 /* table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,7 @@
 		A9C205902A50B61B003A9F05 /* visionos-ordering */ = {
 			isa = PBXGroup;
 			children = (
+				A9C205A62A50B6B9003A9F05 /* Objects */,
 				A9C205952A50B61B003A9F05 /* visionos_orderingApp.swift */,
 				A9C205972A50B61B003A9F05 /* ContentView.swift */,
 				A9C205992A50B61C003A9F05 /* Assets.xcassets */,
@@ -77,6 +89,19 @@
 				A9C2059C2A50B61C003A9F05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9C205A62A50B6B9003A9F05 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A9C205A72A50B736003A9F05 /* pizza.blend */,
+				A9C205A82A50B794003A9F05 /* pizza.obj */,
+				A9C205EF2A50ED64003A9F05 /* table.usdz */,
+				A9C205A42A50B67A003A9F05 /* pie_lemon_meringue.usdz */,
+				A9C205AA2A50B83C003A9F05 /* popsicle.usdz */,
+				A9C205AC2A50BA14003A9F05 /* solo_cup.usdz */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C205AB2A50B83C003A9F05 /* popsicle.usdz in Resources */,
+				A9C205A92A50B795003A9F05 /* pizza.obj in Resources */,
 				A9C2059D2A50B61C003A9F05 /* Preview Assets.xcassets in Resources */,
+				A9C205AD2A50BA14003A9F05 /* solo_cup.usdz in Resources */,
+				A9C205F02A50ED64003A9F05 /* table.usdz in Resources */,
 				A9C2059A2A50B61C003A9F05 /* Assets.xcassets in Resources */,
+				A9C205A52A50B67A003A9F05 /* pie_lemon_meringue.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
